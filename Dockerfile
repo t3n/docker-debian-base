@@ -1,6 +1,6 @@
-FROM debian:stretch-slim
+FROM debian:buster-slim
 
-ENV DUMB_INIT_VERSION 1.2.2
+ENV DUMB_INIT_VERSION 1.2.5
 
 COPY bin/ /usr/local/bin/
 
