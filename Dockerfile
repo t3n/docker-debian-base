@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 
 ENV DUMB_INIT_VERSION 1.2.5
 
